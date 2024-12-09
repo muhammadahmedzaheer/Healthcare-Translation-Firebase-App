@@ -1,0 +1,25 @@
+# Ignore the secrets folder in the user directory
+C:/Users/HP/Secrets/
+
+# Optionally, ignore all .json files (be cautious if you need other JSON files)
+*.json
+
+# Ignore environment files
+.env
+.env.local
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+env/
+venv/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+.DS_Store
